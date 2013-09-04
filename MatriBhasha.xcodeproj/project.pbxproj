@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		824E5D3317D5E3AA004EE329 /* LanguageTranslatorViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 82DC32A617D48CC5000AF235 /* LanguageTranslatorViewController.h */; };
+		82DC328C17D48CC5000AF235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC328B17D48CC5000AF235 /* UIKit.framework */; };
+		82DC328E17D48CC5000AF235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC328D17D48CC5000AF235 /* Foundation.framework */; };
+		82DC329017D48CC5000AF235 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC328F17D48CC5000AF235 /* CoreGraphics.framework */; };
+		82DC329617D48CC5000AF235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DC329417D48CC5000AF235 /* InfoPlist.strings */; };
+		82DC329817D48CC5000AF235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DC329717D48CC5000AF235 /* main.m */; };
+		82DC329C17D48CC5000AF235 /* LanguageTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DC329B17D48CC5000AF235 /* LanguageTranslatorAppDelegate.m */; };
+		82DC329E17D48CC5000AF235 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC329D17D48CC5000AF235 /* Default.png */; };
+		82DC32A017D48CC5000AF235 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC329F17D48CC5000AF235 /* Default@2x.png */; };
+		82DC32A217D48CC5000AF235 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32A117D48CC5000AF235 /* Default-568h@2x.png */; };
+		82DC32A517D48CC5000AF235 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32A317D48CC5000AF235 /* MainStoryboard.storyboard */; };
+		82DC32A817D48CC5000AF235 /* LanguageTranslatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DC32A717D48CC5000AF235 /* LanguageTranslatorViewController.m */; };
+		82DC32B017D48CC5000AF235 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC32AF17D48CC5000AF235 /* SenTestingKit.framework */; };
+		82DC32B117D48CC5000AF235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC328B17D48CC5000AF235 /* UIKit.framework */; };
+		82DC32B217D48CC5000AF235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DC328D17D48CC5000AF235 /* Foundation.framework */; };
+		82DC32BA17D48CC5000AF235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32B817D48CC5000AF235 /* InfoPlist.strings */; };
+		82DC32BD17D48CC5000AF235 /* MatriBhashaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DC32BC17D48CC5000AF235 /* MatriBhashaTests.m */; };
+		82DC32C917D49CD8000AF235 /* english.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32C817D49CD8000AF235 /* english.png */; };
+		82DC32CB17D49E5E000AF235 /* kannada.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32CA17D49E5E000AF235 /* kannada.png */; };
+		82DC32CD17D49F7E000AF235 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DC32CC17D49F7E000AF235 /* speaker.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DC32B317D48CC5000AF235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DC328017D48CC5000AF235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DC328717D48CC5000AF235;
+			remoteInfo = MatriBhasha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82DC328817D48CC5000AF235 /* MatriBhasha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatriBhasha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DC328B17D48CC5000AF235 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82DC328D17D48CC5000AF235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82DC328F17D48CC5000AF235 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82DC329317D48CC5000AF235 /* MatriBhasha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatriBhasha-Info.plist"; sourceTree = "<group>"; };
+		82DC329517D48CC5000AF235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DC329717D48CC5000AF235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82DC329917D48CC5000AF235 /* MatriBhasha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatriBhasha-Prefix.pch"; sourceTree = "<group>"; };
+		82DC329A17D48CC5000AF235 /* LanguageTranslatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		82DC329B17D48CC5000AF235 /* LanguageTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageTranslatorAppDelegate.m; sourceTree = "<group>"; };
+		82DC329D17D48CC5000AF235 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82DC329F17D48CC5000AF235 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82DC32A117D48CC5000AF235 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82DC32A417D48CC5000AF235 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		82DC32A617D48CC5000AF235 /* LanguageTranslatorViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = LanguageTranslatorViewController.h; sourceTree = "<group>"; };
+		82DC32A717D48CC5000AF235 /* LanguageTranslatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageTranslatorViewController.m; sourceTree = "<group>"; };
+		82DC32AE17D48CC5000AF235 /* MatriBhashaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatriBhashaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DC32AF17D48CC5000AF235 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		82DC32B717D48CC5000AF235 /* MatriBhashaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatriBhashaTests-Info.plist"; sourceTree = "<group>"; };
+		82DC32B917D48CC5000AF235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DC32BB17D48CC5000AF235 /* MatriBhashaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatriBhashaTests.h; sourceTree = "<group>"; };
+		82DC32BC17D48CC5000AF235 /* MatriBhashaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatriBhashaTests.m; sourceTree = "<group>"; };
+		82DC32C817D49CD8000AF235 /* english.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = english.png; path = ../../../Desktop/english.png; sourceTree = "<group>"; };
+		82DC32CA17D49E5E000AF235 /* kannada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kannada.png; path = ../../../Desktop/kannada.png; sourceTree = "<group>"; };
+		82DC32CC17D49F7E000AF235 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DC328517D48CC5000AF235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC328C17D48CC5000AF235 /* UIKit.framework in Frameworks */,
+				82DC328E17D48CC5000AF235 /* Foundation.framework in Frameworks */,
+				82DC329017D48CC5000AF235 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DC32AA17D48CC5000AF235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC32B017D48CC5000AF235 /* SenTestingKit.framework in Frameworks */,
+				82DC32B117D48CC5000AF235 /* UIKit.framework in Frameworks */,
+				82DC32B217D48CC5000AF235 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82DC327F17D48CC5000AF235 = {
+			isa = PBXGroup;
+			children = (
+				82DC329117D48CC5000AF235 /* MatriBhasha */,
+				82DC32B517D48CC5000AF235 /* MatriBhashaTests */,
+				82DC328A17D48CC5000AF235 /* Frameworks */,
+				82DC328917D48CC5000AF235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82DC328917D48CC5000AF235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DC328817D48CC5000AF235 /* MatriBhasha.app */,
+				82DC32AE17D48CC5000AF235 /* MatriBhashaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DC328A17D48CC5000AF235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DC328B17D48CC5000AF235 /* UIKit.framework */,
+				82DC328D17D48CC5000AF235 /* Foundation.framework */,
+				82DC328F17D48CC5000AF235 /* CoreGraphics.framework */,
+				82DC32AF17D48CC5000AF235 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DC329117D48CC5000AF235 /* MatriBhasha */ = {
+			isa = PBXGroup;
+			children = (
+				82DC32CC17D49F7E000AF235 /* speaker.png */,
+				82DC32C817D49CD8000AF235 /* english.png */,
+				82DC32CA17D49E5E000AF235 /* kannada.png */,
+				82DC32A617D48CC5000AF235 /* LanguageTranslatorViewController.h */,
+				82DC32A717D48CC5000AF235 /* LanguageTranslatorViewController.m */,
+				82DC32A317D48CC5000AF235 /* MainStoryboard.storyboard */,
+				82DC329217D48CC5000AF235 /* Supporting Files */,
+			);
+			path = MatriBhasha;
+			sourceTree = "<group>";
+		};
+		82DC329217D48CC5000AF235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DC329A17D48CC5000AF235 /* LanguageTranslatorAppDelegate.h */,
+				82DC329B17D48CC5000AF235 /* LanguageTranslatorAppDelegate.m */,
+				82DC329317D48CC5000AF235 /* MatriBhasha-Info.plist */,
+				82DC329417D48CC5000AF235 /* InfoPlist.strings */,
+				82DC329717D48CC5000AF235 /* main.m */,
+				82DC329917D48CC5000AF235 /* MatriBhasha-Prefix.pch */,
+				82DC329D17D48CC5000AF235 /* Default.png */,
+				82DC329F17D48CC5000AF235 /* Default@2x.png */,
+				82DC32A117D48CC5000AF235 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82DC32B517D48CC5000AF235 /* MatriBhashaTests */ = {
+			isa = PBXGroup;
+			children = (
+				82DC32BB17D48CC5000AF235 /* MatriBhashaTests.h */,
+				82DC32BC17D48CC5000AF235 /* MatriBhashaTests.m */,
+				82DC32B617D48CC5000AF235 /* Supporting Files */,
+			);
+			path = MatriBhashaTests;
+			sourceTree = "<group>";
+		};
+		82DC32B617D48CC5000AF235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DC32B717D48CC5000AF235 /* MatriBhashaTests-Info.plist */,
+				82DC32B817D48CC5000AF235 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DC328717D48CC5000AF235 /* MatriBhasha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DC32C017D48CC5000AF235 /* Build configuration list for PBXNativeTarget "MatriBhasha" */;
+			buildPhases = (
+				82DC328417D48CC5000AF235 /* Sources */,
+				82DC328517D48CC5000AF235 /* Frameworks */,
+				82DC328617D48CC5000AF235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatriBhasha;
+			productName = MatriBhasha;
+			productReference = 82DC328817D48CC5000AF235 /* MatriBhasha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DC32AD17D48CC5000AF235 /* MatriBhashaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DC32C317D48CC5000AF235 /* Build configuration list for PBXNativeTarget "MatriBhashaTests" */;
+			buildPhases = (
+				82DC32A917D48CC5000AF235 /* Sources */,
+				82DC32AA17D48CC5000AF235 /* Frameworks */,
+				82DC32AB17D48CC5000AF235 /* Resources */,
+				82DC32AC17D48CC5000AF235 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DC32B417D48CC5000AF235 /* PBXTargetDependency */,
+			);
+			name = MatriBhashaTests;
+			productName = MatriBhashaTests;
+			productReference = 82DC32AE17D48CC5000AF235 /* MatriBhashaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DC328017D48CC5000AF235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LanguageTranslator;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Seinjuti Chatterjee";
+			};
+			buildConfigurationList = 82DC328317D48CC5000AF235 /* Build configuration list for PBXProject "MatriBhasha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DC327F17D48CC5000AF235;
+			productRefGroup = 82DC328917D48CC5000AF235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DC328717D48CC5000AF235 /* MatriBhasha */,
+				82DC32AD17D48CC5000AF235 /* MatriBhashaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DC328617D48CC5000AF235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC329617D48CC5000AF235 /* InfoPlist.strings in Resources */,
+				82DC329E17D48CC5000AF235 /* Default.png in Resources */,
+				82DC32A017D48CC5000AF235 /* Default@2x.png in Resources */,
+				82DC32A217D48CC5000AF235 /* Default-568h@2x.png in Resources */,
+				82DC32A517D48CC5000AF235 /* MainStoryboard.storyboard in Resources */,
+				82DC32C917D49CD8000AF235 /* english.png in Resources */,
+				82DC32CB17D49E5E000AF235 /* kannada.png in Resources */,
+				82DC32CD17D49F7E000AF235 /* speaker.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DC32AB17D48CC5000AF235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC32BA17D48CC5000AF235 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82DC32AC17D48CC5000AF235 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DC328417D48CC5000AF235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC329817D48CC5000AF235 /* main.m in Sources */,
+				82DC329C17D48CC5000AF235 /* LanguageTranslatorAppDelegate.m in Sources */,
+				82DC32A817D48CC5000AF235 /* LanguageTranslatorViewController.m in Sources */,
+				824E5D3317D5E3AA004EE329 /* LanguageTranslatorViewController.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DC32A917D48CC5000AF235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DC32BD17D48CC5000AF235 /* MatriBhashaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DC32B417D48CC5000AF235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DC328717D48CC5000AF235 /* MatriBhasha */;
+			targetProxy = 82DC32B317D48CC5000AF235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82DC329417D48CC5000AF235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DC329517D48CC5000AF235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82DC32A317D48CC5000AF235 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DC32A417D48CC5000AF235 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		82DC32B817D48CC5000AF235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DC32B917D48CC5000AF235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DC32BE17D48CC5000AF235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82DC32BF17D48CC5000AF235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82DC32C117D48CC5000AF235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatriBhasha/MatriBhasha-Prefix.pch";
+				INFOPLIST_FILE = "MatriBhasha/MatriBhasha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82DC32C217D48CC5000AF235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatriBhasha/MatriBhasha-Prefix.pch";
+				INFOPLIST_FILE = "MatriBhasha/MatriBhasha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82DC32C417D48CC5000AF235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MatriBhasha.app/MatriBhasha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatriBhasha/MatriBhasha-Prefix.pch";
+				INFOPLIST_FILE = "MatriBhashaTests/MatriBhashaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82DC32C517D48CC5000AF235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MatriBhasha.app/MatriBhasha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatriBhasha/MatriBhasha-Prefix.pch";
+				INFOPLIST_FILE = "MatriBhashaTests/MatriBhashaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DC328317D48CC5000AF235 /* Build configuration list for PBXProject "MatriBhasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DC32BE17D48CC5000AF235 /* Debug */,
+				82DC32BF17D48CC5000AF235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DC32C017D48CC5000AF235 /* Build configuration list for PBXNativeTarget "MatriBhasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DC32C117D48CC5000AF235 /* Debug */,
+				82DC32C217D48CC5000AF235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DC32C317D48CC5000AF235 /* Build configuration list for PBXNativeTarget "MatriBhashaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DC32C417D48CC5000AF235 /* Debug */,
+				82DC32C517D48CC5000AF235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DC328017D48CC5000AF235 /* Project object */;
+}

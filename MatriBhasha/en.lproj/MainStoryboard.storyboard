@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NTg-Oq-AEy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Language Translator View Controller-->
+        <scene sceneID="Jwq-0r-z1f">
+            <objects>
+                <viewController id="NTg-Oq-AEy" customClass="LanguageTranslatorViewController" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" id="7Lk-Gs-kaH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gi-qL-l80">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="PGm-0o-nbo"/>
+                                    <constraint firstAttribute="width" constant="43" id="Skr-tu-XZG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="speaker.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="SpeakToMe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDe-sq-aTL">
+                                <color key="backgroundColor" red="1" green="0.2117647231" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="XjX-cQ-4mu"/>
+                                    <constraint firstAttribute="width" constant="164" id="ght-xJ-W5P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3d-WT-To2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ECi-8l-B6N"/>
+                                    <constraint firstAttribute="width" constant="43" id="vpv-QE-bte"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="speaker.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your translated text here..." borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uqr-xT-Oqf">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="orA-7V-Pdy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your text here..." borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xcl-Jh-oAl">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="1Ac-uk-dQ4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="clearEnglishTextOnStart:" destination="NTg-Oq-AEy" eventType="editingDidBegin" id="OVM-eX-kDw"/>
+                                    <action selector="setEnglishText:" destination="NTg-Oq-AEy" eventType="editingChanged" id="eL8-y8-EY7"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rry-87-HLu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZSS-6f-LlQ"/>
+                                    <constraint firstAttribute="width" constant="99" id="dbj-gG-QEL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="english.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleShadowColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybs-5X-zXS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="SyP-0M-ZAm"/>
+                                    <constraint firstAttribute="height" constant="38" id="xRD-IB-17G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="kannada.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ybs-5X-zXS" secondAttribute="bottom" constant="161" id="5gC-n6-d5P"/>
+                            <constraint firstItem="PDe-sq-aTL" firstAttribute="leading" secondItem="7Lk-Gs-kaH" secondAttribute="leading" constant="69" id="9Hl-N0-sQE"/>
+                            <constraint firstItem="rry-87-HLu" firstAttribute="leading" secondItem="7Lk-Gs-kaH" secondAttribute="leading" constant="44" id="HH7-Lb-Ypv"/>
+                            <constraint firstAttribute="trailing" secondItem="2Gi-qL-l80" secondAttribute="trailing" constant="43" id="J3T-Ol-avQ"/>
+                            <constraint firstItem="Xcl-Jh-oAl" firstAttribute="top" secondItem="7Lk-Gs-kaH" secondAttribute="top" constant="147" id="JYN-PG-jae"/>
+                            <constraint firstItem="PDe-sq-aTL" firstAttribute="top" secondItem="7Lk-Gs-kaH" secondAttribute="top" constant="14" id="NxX-nZ-tXZ"/>
+                            <constraint firstItem="uqr-xT-Oqf" firstAttribute="baseline" secondItem="C3d-WT-To2" secondAttribute="baseline" type="default" id="PCs-5A-lJv"/>
+                            <constraint firstItem="uqr-xT-Oqf" firstAttribute="leading" secondItem="ybs-5X-zXS" secondAttribute="leading" type="default" id="cDt-CY-hnP"/>
+                            <constraint firstItem="Xcl-Jh-oAl" firstAttribute="bottom" secondItem="2Gi-qL-l80" secondAttribute="bottom" type="default" id="coF-em-C7j"/>
+                            <constraint firstAttribute="bottom" secondItem="uqr-xT-Oqf" secondAttribute="bottom" constant="115" id="dLA-wZ-KsM"/>
+                            <constraint firstAttribute="trailing" secondItem="C3d-WT-To2" secondAttribute="trailing" constant="33" id="gBJ-VB-9XK"/>
+                            <constraint firstItem="rry-87-HLu" firstAttribute="leading" secondItem="Xcl-Jh-oAl" secondAttribute="leading" type="default" id="gro-0j-2y2"/>
+                            <constraint firstItem="rry-87-HLu" firstAttribute="top" secondItem="7Lk-Gs-kaH" secondAttribute="top" constant="80" id="ki9-Za-IA1"/>
+                            <constraint firstItem="ybs-5X-zXS" firstAttribute="leading" secondItem="Xcl-Jh-oAl" secondAttribute="leading" type="default" id="mOu-MN-yGZ"/>
+                            <constraint firstItem="C3d-WT-To2" firstAttribute="top" secondItem="uqr-xT-Oqf" secondAttribute="top" type="default" id="vDj-gd-H1q"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="B7A-L5-ltY"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nWN-CQ-raw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="-14"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="english.png" width="104" height="42"/>
+        <image name="kannada.png" width="103" height="49"/>
+        <image name="speaker.png" width="120" height="118"/>
+    </resources>
+    <classes>
+        <class className="FirstResponder">
+            <source key="sourceIdentifier" type="user"/>
+            <relationships>
+                <relationship kind="action" name="action"/>
+                <relationship kind="action" name="action1"/>
+                <relationship kind="action" name="action2"/>
+            </relationships>
+        </class>
+        <class className="LanguageTranslatorViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LanguageTranslatorViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="clearEnglishTextOnStart:" candidateClass="UITextField"/>
+                <relationship kind="action" name="displayEnglishText:" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
